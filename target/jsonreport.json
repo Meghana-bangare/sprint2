@@ -1,0 +1,1591 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3094199,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on  unfirom application login page",
+            "match": {
+              "location": "stepdefination.user_is_on_unfirom_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38837400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)\r\n\tat ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)\r\n",
+              "duration": 23424899,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "click on login buttton",
+            "match": {
+              "location": "stepdefination.click_on_login_buttton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23599,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user will be logged in",
+            "match": {
+              "location": "stepdefination.user_will_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T05:40:38.353Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3303439100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Dashboard",
+        "description": "",
+        "id": "automation-on-uniform-website-application;dashboard;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 208769900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16699,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user is on the dashboard page",
+            "match": {
+              "location": "stepdefination.user_is_on_the_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13699,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user hover over the catalog",
+            "match": {
+              "location": "stepdefination.user_hover_over_the_catalog()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10200,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user click on product",
+            "match": {
+              "location": "stepdefination.user_click_on_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10100,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user is directed to product page",
+            "match": {
+              "location": "stepdefination.user_is_directed_to_product_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12400,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user is on product page",
+            "match": {
+              "location": "stepdefination.user_is_on_product_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13300,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user enter details \"Brown T shirt\",\"1500\",\"RTS-012\"and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brown T shirt\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"1500\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"RTS-012\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepdefination.user_enter_details_and(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11500,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user selects \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefination.user_selects_status_option(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10900,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "click on filter button",
+            "match": {
+              "location": "stepdefination.click_on_filter_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10500,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user gets the details of the product",
+            "match": {
+              "location": "stepdefination.user_gets_the_details_of_the_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10100,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user selects product to be copied",
+            "match": {
+              "location": "stepdefination.user_selects_product_to_be_copied()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14700,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user clicks on copy",
+            "match": {
+              "location": "stepdefination.user_clicks_on_copy()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "copying is done",
+            "match": {
+              "location": "stepdefination.copying_is_done()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13100,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user selects product to be deleted",
+            "match": {
+              "location": "stepdefination.user_selects_product_to_be_deleted()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13501,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user clicks on delete",
+            "match": {
+              "location": "stepdefination.user_clicks_on_delete()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13101,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user deletion is done",
+            "match": {
+              "location": "stepdefination.user_deletion_is_done()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7200,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user clicks on product name field",
+            "match": {
+              "location": "stepdefination.user_clicks_on_product_name_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7299,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "product list is sortedin descending order",
+            "match": {
+              "location": "stepdefination.product_list_is_sortedin_descending_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7300,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user clicks on  model field",
+            "match": {
+              "location": "stepdefination.user_clicks_on_model_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7300,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "list is sorted in ascending order",
+            "match": {
+              "location": "stepdefination.list_is_sorted_in_ascending_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7700,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user clicks on price field",
+            "match": {
+              "location": "stepdefination.user_clicks_on_price_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7600,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "price row is sorted in descending order",
+            "match": {
+              "location": "stepdefination.price_row_is_sorted_in_descending_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7499,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user clicks on quantity field",
+            "match": {
+              "location": "stepdefination.user_clicks_on_quantity_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7101,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "user is sorted in descending order",
+            "match": {
+              "location": "stepdefination.user_is_sorted_in_descending_order()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 258601,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on  unfirom application login page",
+            "match": {
+              "location": "stepdefination.user_is_on_unfirom_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18079601,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)\r\n\tat ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)\r\n",
+              "duration": 19612600,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "click on login buttton",
+            "match": {
+              "location": "stepdefination.click_on_login_buttton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8301,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user will be logged in",
+            "match": {
+              "location": "stepdefination.user_will_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T05:40:41.949Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3150319301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "",
+        "description": "",
+        "id": "automation-on-uniform-website-application;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 118636200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7300,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "user is on dashboard page",
+            "match": {
+              "location": "stepdefination.user_is_on_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "user hover over the menu",
+            "match": {
+              "location": "stepdefination.user_hover_over_the_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4299,
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "user click on  the product",
+            "match": {
+              "location": "stepdefination.user_click_on_the_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4400,
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "user is navigated to product page",
+            "match": {
+              "location": "stepdefination.user_is_navigated_to_product_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4700,
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "user clicks on add product",
+            "match": {
+              "location": "stepdefination.user_clicks_on_add_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4200,
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "user is navigated to add product page",
+            "match": {
+              "location": "stepdefination.user_is_navigated_to_add_product_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "user adds \"A\",\"White coat\",\"a\",\"apron\",\"ap12\" and \"apr12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"White coat\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"a\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"apron\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"ap12\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"apr12\"",
+                  "offset": 50
+                }
+              ],
+              "location": "stepdefination.user_adds_and(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "user clicks on save",
+            "match": {
+              "location": "stepdefination.user_clicks_on_save()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4400,
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "user data gets \"Warning: Please check the form carefully for errors!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Warning: Please check the form carefully for errors!\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefination.user_data_gets(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 274400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on  unfirom application login page",
+            "match": {
+              "location": "stepdefination.user_is_on_unfirom_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18241500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)\r\n\tat ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)\r\n",
+              "duration": 15798899,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "click on login buttton",
+            "match": {
+              "location": "stepdefination.click_on_login_buttton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5799,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user will be logged in",
+            "match": {
+              "location": "stepdefination.user_will_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T05:40:45.258Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3023717701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "",
+        "description": "",
+        "id": "automation-on-uniform-website-application;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 123381200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3100,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "user is on dashboard page",
+            "match": {
+              "location": "stepdefination.user_is_on_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "user hover over the menu",
+            "match": {
+              "location": "stepdefination.user_hover_over_the_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2901,
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "user click on  the product",
+            "match": {
+              "location": "stepdefination.user_click_on_the_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "user is navigated to product page",
+            "match": {
+              "location": "stepdefination.user_is_navigated_to_product_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "user clicks on add product",
+            "match": {
+              "location": "stepdefination.user_clicks_on_add_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "user is navigated to add product page",
+            "match": {
+              "location": "stepdefination.user_is_navigated_to_add_product_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3101,
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "user adds \"Apron\",\"White coat\",\"apron\",\"apron\",\"ap12\" and \"apr12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apron\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"White coat\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"apron\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"apron\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"ap12\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"apr12\"",
+                  "offset": 58
+                }
+              ],
+              "location": "stepdefination.user_adds_and(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2901,
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "user clicks on save",
+            "match": {
+              "location": "stepdefination.user_clicks_on_save()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3001,
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "user data gets \"Success: You have modified products!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success: You have modified products!\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefination.user_data_gets(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 308601,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on  unfirom application login page",
+            "match": {
+              "location": "stepdefination.user_is_on_unfirom_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15893500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)\r\n\tat ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)\r\n",
+              "duration": 14007001,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "click on login buttton",
+            "match": {
+              "location": "stepdefination.click_on_login_buttton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5699,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user will be logged in",
+            "match": {
+              "location": "stepdefination.user_will_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T05:40:48.443Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2657373099,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 67,
+        "name": "Edit",
+        "description": "",
+        "id": "automation-on-uniform-website-application;edit;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 167884600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2099,
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "user is navigated to dashboard page",
+            "match": {
+              "location": "stepdefination.user_is_navigated_to_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1900,
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "user hover over the menu element",
+            "match": {
+              "location": "stepdefination.user_hover_over_the_menu_element()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2100,
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "user click on  the product tag",
+            "match": {
+              "location": "stepdefination.user_click_on_the_product_tag()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1801,
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "user is redirected to product page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_product_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1799,
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "user click on product to be edited",
+            "match": {
+              "location": "stepdefination.user_click_on_product_to_be_edited()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2400,
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "user is directed to edit page",
+            "match": {
+              "location": "stepdefination.user_is_directed_to_edit_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2100,
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "user edits \"j\", \"leather\", \"j\", \"jacket\", \"jaket12\", \"jacket12\" , \"jk12\",\"220\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"j\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"leather\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"j\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"jacket\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"jaket12\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"jacket12\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"jk12\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"220\"",
+                  "offset": 73
+                }
+              ],
+              "location": "stepdefination.user_edits(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2400,
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "user clicks on save button",
+            "match": {
+              "location": "stepdefination.user_clicks_on_save_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2199,
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "user gets \"Warning: Please check the form carefully for errors!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Warning: Please check the form carefully for errors!\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefination.user_gets(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 475900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on  unfirom application login page",
+            "match": {
+              "location": "stepdefination.user_is_on_unfirom_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17157600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)\r\n\tat ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)\r\n",
+              "duration": 14756501,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "click on login buttton",
+            "match": {
+              "location": "stepdefination.click_on_login_buttton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4499,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user will be logged in",
+            "match": {
+              "location": "stepdefination.user_will_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T05:40:51.301Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3991409800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 68,
+        "name": "Edit",
+        "description": "",
+        "id": "automation-on-uniform-website-application;edit;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 169403000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1499,
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "user is navigated to dashboard page",
+            "match": {
+              "location": "stepdefination.user_is_navigated_to_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1601,
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "user hover over the menu element",
+            "match": {
+              "location": "stepdefination.user_hover_over_the_menu_element()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1501,
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "user click on  the product tag",
+            "match": {
+              "location": "stepdefination.user_click_on_the_product_tag()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1600,
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "user is redirected to product page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_product_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1300,
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "user click on product to be edited",
+            "match": {
+              "location": "stepdefination.user_click_on_product_to_be_edited()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1500,
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "user is directed to edit page",
+            "match": {
+              "location": "stepdefination.user_is_directed_to_edit_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1499,
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "user edits \"jacket\", \"leather\", \"jacket\", \"jacket\", \"jaket12\", \"jacket12\" , \"jk12\",\"220\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jacket\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"leather\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"jacket\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"jacket\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"jaket12\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"jacket12\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"jk12\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"220\"",
+                  "offset": 83
+                }
+              ],
+              "location": "stepdefination.user_edits(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1601,
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "user clicks on save button",
+            "match": {
+              "location": "stepdefination.user_clicks_on_save_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1600,
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "user gets \"Success: You have modified products!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success: You have modified products!\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefination.user_gets(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 274300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on  unfirom application login page",
+            "match": {
+              "location": "stepdefination.user_is_on_unfirom_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16240200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter \"admin\" and \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefination.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)\r\n\tat ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)\r\n",
+              "duration": 16587600,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "click on login buttton",
+            "match": {
+              "location": "stepdefination.click_on_login_buttton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user will be logged in",
+            "match": {
+              "location": "stepdefination.user_will_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T05:40:55.496Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2849456000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.initialization()"
+            }
+          }
+        ],
+        "line": 69,
+        "name": "",
+        "description": "",
+        "id": "automation-on-uniform-website-application;",
+        "after": [
+          {
+            "result": {
+              "duration": 103159400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookclass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1699,
+              "status": "skipped"
+            },
+            "line": 70,
+            "name": "user is at dashboard page",
+            "match": {
+              "location": "stepdefination.user_is_at_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1699,
+              "status": "skipped"
+            },
+            "line": 71,
+            "name": "user hover over the catalog tag",
+            "match": {
+              "location": "stepdefination.user_hover_over_the_catalog_tag()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1500,
+              "status": "skipped"
+            },
+            "line": 72,
+            "name": "user click on  the prod tag",
+            "match": {
+              "location": "stepdefination.user_click_on_the_prod_tag()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1499,
+              "status": "skipped"
+            },
+            "line": 73,
+            "name": "user is navigated to prod page",
+            "match": {
+              "location": "stepdefination.user_is_navigated_to_prod_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1701,
+              "status": "skipped"
+            },
+            "line": 74,
+            "name": "user clicks on add product element",
+            "match": {
+              "location": "stepdefination.user_clicks_on_add_product_element()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1400,
+              "status": "skipped"
+            },
+            "line": 75,
+            "name": "user is navigated to adding product page",
+            "match": {
+              "location": "stepdefination.user_is_navigated_to_adding_product_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1499,
+              "status": "skipped"
+            },
+            "line": 76,
+            "name": "user clicks on cancel button",
+            "match": {
+              "location": "stepdefination.user_clicks_on_cancel_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2200,
+              "status": "skipped"
+            },
+            "line": 77,
+            "name": "user is redirected to the product page",
+            "match": {
+              "location": "stepdefination.user_is_redirected_to_the_product_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automation on uniform website application",
+    "description": "",
+    "id": "automation-on-uniform-website-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/signupc.feature",
+    "tags": []
+  }
+]
