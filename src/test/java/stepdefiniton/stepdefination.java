@@ -28,7 +28,8 @@ public void user_is_on_unfirom_application_login_page() {
 		   driver.findElement(By.xpath("(//input[@id='input-username'])[1]")).sendKeys(username);
 		   driver.findElement(By.xpath( "//input[@id='input-password']")).sendKeys(password);
 		   System.out.println("Credentials added successfully!");	
-		  }
+		   Thread.sleep(3000);		
+		   }
 	   catch(Exception e)
 	   {
 		   System.out.println("Not able to enter username and password"+e);
@@ -86,6 +87,7 @@ catch(Exception e) {
 	    try {
 	    	
 	    	 driver.findElement(By.xpath( "//body/div[@id='container']/nav[@id='column-left']/ul[@id='menu']/li[@id='catalog']/a[1]")).click();
+	    	 Thread.sleep(2000);
 	    }
 	    catch(Exception e) {
 	    System.out.println("Not able to hover on catalog"+e);
@@ -98,6 +100,7 @@ catch(Exception e) {
 		try {
 			WebElement product= driver.findElement(By.xpath("//li[@id='catalog']//ul//li//a[contains(text(),'Products')]"));
 			product.click();
+			Thread.sleep(1000);
 		
 		}
 		catch(Exception e) {
@@ -146,6 +149,7 @@ catch(Exception e) {
 	    	driver.findElement(By.xpath("//input[@id='input-price']")).sendKeys(price);
 	    	driver.findElement(By.xpath("//input[@id='input-model']")).sendKeys(model);
 	    	driver.findElement(By.xpath("//input[@id='input-quantity']")).sendKeys(quantity);
+	    	Thread.sleep(2000);
 	    }
 	    catch(Exception e) {
 	    	System.out.println("Not able to enter the details"+e);

@@ -6,7 +6,7 @@ Feature: Automation on uniform website application
     And click on login buttton
     Then user will be logged in
 
-  Scenario Outline: Dashboard
+  Scenario Outline: Dashboard and filtering
     Given user is on the dashboard page
     When user hover over the catalog
     When user click on product
@@ -35,7 +35,7 @@ Feature: Automation on uniform website application
       | product       | price | model   | quantity | status |
       | Brown T shirt |  1500 | RTS-012 |          |      0 |
 
-  Scenario Outline: 
+  Scenario Outline: Adding the product
     Given user is on dashboard page
     When user hover over the menu
     When user click on  the product
@@ -47,11 +47,11 @@ Feature: Automation on uniform website application
     Then user data gets "<validated>"
 
     Examples: 
-      | productname | description | metatag | metatagdesc | producttag | model | validated                             |
+      | productname | description | metatag | metatagdesc | producttag | model | validated                                            |
       | A           | White coat  | a       | apron       | ap12       | apr12 | Warning: Please check the form carefully for errors! |
       | Apron       | White coat  | apron   | apron       | ap12       | apr12 | Success: You have modified products!                 |
 
-  Scenario Outline: Edit
+  Scenario Outline: Product editing
     Given user is navigated to dashboard page
     When user hover over the menu element
     When user click on  the product tag
@@ -66,8 +66,9 @@ Feature: Automation on uniform website application
       | productname | description | metatagt | metatagdesc | metakey | productkey | model | quantity | Validation                                           |
       | j           | leather     | j        | jacket      | jaket12 | jacket12   | jk12  |      220 | Warning: Please check the form carefully for errors! |
       | jacket      | leather     | jacket   | jacket      | jaket12 | jacket12   | jk12  |      220 | Success: You have modified products!                 |
- Scenario:
-  Given user is at dashboard page
+
+  Scenario: Canceling the action
+    Given user is at dashboard page
     When user hover over the catalog tag
     When user click on  the prod tag
     Then user is navigated to prod page
@@ -75,4 +76,3 @@ Feature: Automation on uniform website application
     Then user is navigated to adding product page
     When user clicks on cancel button
     Then user is redirected to the product page
- 

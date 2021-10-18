@@ -162,8 +162,7 @@ formatter.match({
   "location": "stepdefination.click_on_login_buttton()"
 });
 formatter.result({
-  "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)\r\n\tat ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "user will be logged in",
@@ -173,7 +172,7 @@ formatter.match({
   "location": "stepdefination.user_will_be_logged_in()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Dashboard",
@@ -188,7 +187,7 @@ formatter.match({
   "location": "stepdefination.user_is_on_the_dashboard_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user hover over the catalog",
@@ -198,7 +197,7 @@ formatter.match({
   "location": "stepdefination.user_hover_over_the_catalog()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user click on product",
@@ -208,7 +207,7 @@ formatter.match({
   "location": "stepdefination.user_click_on_product()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user is directed to product page",
@@ -218,7 +217,7 @@ formatter.match({
   "location": "stepdefination.user_is_directed_to_product_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user is on product page",
@@ -228,7 +227,7 @@ formatter.match({
   "location": "stepdefination.user_is_on_product_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user enter details \"Brown T shirt\",\"1500\",\"RTS-012\"and \"\"",
@@ -238,7 +237,7 @@ formatter.match({
   "location": "stepdefination.user_enter_details_and(String,String,String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user selects \"0\"",
@@ -248,7 +247,7 @@ formatter.match({
   "location": "stepdefination.user_selects_status_option(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "click on filter button",
@@ -258,7 +257,7 @@ formatter.match({
   "location": "stepdefination.click_on_filter_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user gets the details of the product",
@@ -268,7 +267,7 @@ formatter.match({
   "location": "stepdefination.user_gets_the_details_of_the_product()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user selects product to be copied",
@@ -278,7 +277,7 @@ formatter.match({
   "location": "stepdefination.user_selects_product_to_be_copied()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks on copy",
@@ -288,7 +287,7 @@ formatter.match({
   "location": "stepdefination.user_clicks_on_copy()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "copying is done",
@@ -298,7 +297,7 @@ formatter.match({
   "location": "stepdefination.copying_is_done()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user selects product to be deleted",
@@ -308,7 +307,7 @@ formatter.match({
   "location": "stepdefination.user_selects_product_to_be_deleted()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks on delete",
@@ -318,7 +317,7 @@ formatter.match({
   "location": "stepdefination.user_clicks_on_delete()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user deletion is done",
@@ -328,7 +327,7 @@ formatter.match({
   "location": "stepdefination.user_deletion_is_done()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks on product name field",
@@ -338,7 +337,7 @@ formatter.match({
   "location": "stepdefination.user_clicks_on_product_name_field()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "product list is sortedin descending order",
@@ -348,7 +347,7 @@ formatter.match({
   "location": "stepdefination.product_list_is_sortedin_descending_order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks on  model field",
@@ -358,7 +357,7 @@ formatter.match({
   "location": "stepdefination.user_clicks_on_model_field()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "list is sorted in ascending order",
@@ -368,7 +367,7 @@ formatter.match({
   "location": "stepdefination.list_is_sorted_in_ascending_order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks on price field",
@@ -378,7 +377,7 @@ formatter.match({
   "location": "stepdefination.user_clicks_on_price_field()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "price row is sorted in descending order",
@@ -388,7 +387,7 @@ formatter.match({
   "location": "stepdefination.price_row_is_sorted_in_descending_order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks on quantity field",
@@ -398,7 +397,7 @@ formatter.match({
   "location": "stepdefination.user_clicks_on_quantity_field()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user is sorted in descending order",
@@ -408,7 +407,7 @@ formatter.match({
   "location": "stepdefination.user_is_sorted_in_descending_order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -530,8 +529,7 @@ formatter.match({
   "location": "stepdefination.click_on_login_buttton()"
 });
 formatter.result({
-  "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)\r\n\tat ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "user will be logged in",
@@ -541,7 +539,7 @@ formatter.match({
   "location": "stepdefination.user_will_be_logged_in()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "",
@@ -556,7 +554,7 @@ formatter.match({
   "location": "stepdefination.user_is_on_dashboard_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user hover over the menu",
@@ -566,7 +564,7 @@ formatter.match({
   "location": "stepdefination.user_hover_over_the_menu()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user click on  the product",
@@ -576,7 +574,7 @@ formatter.match({
   "location": "stepdefination.user_click_on_the_product()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user is navigated to product page",
@@ -586,7 +584,7 @@ formatter.match({
   "location": "stepdefination.user_is_navigated_to_product_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks on add product",
@@ -596,7 +594,7 @@ formatter.match({
   "location": "stepdefination.user_clicks_on_add_product()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user is navigated to add product page",
@@ -606,7 +604,7 @@ formatter.match({
   "location": "stepdefination.user_is_navigated_to_add_product_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user adds \"A\",\"White coat\",\"a\",\"apron\",\"ap12\" and \"apr12\"",
@@ -616,7 +614,7 @@ formatter.match({
   "location": "stepdefination.user_adds_and(String,String,String,String,String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks on save",
@@ -626,7 +624,7 @@ formatter.match({
   "location": "stepdefination.user_clicks_on_save()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user data gets \"Warning: Please check the form carefully for errors!\"",
@@ -636,7 +634,7 @@ formatter.match({
   "location": "stepdefination.user_data_gets(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -677,8 +675,7 @@ formatter.match({
   "location": "stepdefination.click_on_login_buttton()"
 });
 formatter.result({
-  "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)\r\n\tat ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "user will be logged in",
@@ -688,7 +685,7 @@ formatter.match({
   "location": "stepdefination.user_will_be_logged_in()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "",
@@ -703,7 +700,7 @@ formatter.match({
   "location": "stepdefination.user_is_on_dashboard_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user hover over the menu",
@@ -713,7 +710,7 @@ formatter.match({
   "location": "stepdefination.user_hover_over_the_menu()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user click on  the product",
@@ -723,7 +720,7 @@ formatter.match({
   "location": "stepdefination.user_click_on_the_product()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user is navigated to product page",
@@ -733,7 +730,7 @@ formatter.match({
   "location": "stepdefination.user_is_navigated_to_product_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks on add product",
@@ -743,7 +740,7 @@ formatter.match({
   "location": "stepdefination.user_clicks_on_add_product()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user is navigated to add product page",
@@ -753,7 +750,7 @@ formatter.match({
   "location": "stepdefination.user_is_navigated_to_add_product_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user adds \"Apron\",\"White coat\",\"apron\",\"apron\",\"ap12\" and \"apr12\"",
@@ -763,7 +760,7 @@ formatter.match({
   "location": "stepdefination.user_adds_and(String,String,String,String,String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks on save",
@@ -773,7 +770,7 @@ formatter.match({
   "location": "stepdefination.user_clicks_on_save()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user data gets \"Success: You have modified products!\"",
@@ -783,7 +780,7 @@ formatter.match({
   "location": "stepdefination.user_data_gets(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -911,8 +908,7 @@ formatter.match({
   "location": "stepdefination.click_on_login_buttton()"
 });
 formatter.result({
-  "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)\r\n\tat ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "user will be logged in",
@@ -922,7 +918,7 @@ formatter.match({
   "location": "stepdefination.user_will_be_logged_in()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Edit",
@@ -937,7 +933,7 @@ formatter.match({
   "location": "stepdefination.user_is_navigated_to_dashboard_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user hover over the menu element",
@@ -947,7 +943,7 @@ formatter.match({
   "location": "stepdefination.user_hover_over_the_menu_element()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user click on  the product tag",
@@ -957,7 +953,7 @@ formatter.match({
   "location": "stepdefination.user_click_on_the_product_tag()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user is redirected to product page",
@@ -967,7 +963,7 @@ formatter.match({
   "location": "stepdefination.user_is_redirected_to_product_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user click on product to be edited",
@@ -977,7 +973,7 @@ formatter.match({
   "location": "stepdefination.user_click_on_product_to_be_edited()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user is directed to edit page",
@@ -987,7 +983,7 @@ formatter.match({
   "location": "stepdefination.user_is_directed_to_edit_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user edits \"j\", \"leather\", \"j\", \"jacket\", \"jaket12\", \"jacket12\" , \"jk12\",\"220\"",
@@ -997,7 +993,7 @@ formatter.match({
   "location": "stepdefination.user_edits(String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks on save button",
@@ -1007,7 +1003,7 @@ formatter.match({
   "location": "stepdefination.user_clicks_on_save_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user gets \"Warning: Please check the form carefully for errors!\"",
@@ -1017,7 +1013,7 @@ formatter.match({
   "location": "stepdefination.user_gets(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -1058,8 +1054,7 @@ formatter.match({
   "location": "stepdefination.click_on_login_buttton()"
 });
 formatter.result({
-  "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)\r\n\tat ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "user will be logged in",
@@ -1069,7 +1064,7 @@ formatter.match({
   "location": "stepdefination.user_will_be_logged_in()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Edit",
@@ -1084,7 +1079,7 @@ formatter.match({
   "location": "stepdefination.user_is_navigated_to_dashboard_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user hover over the menu element",
@@ -1094,7 +1089,7 @@ formatter.match({
   "location": "stepdefination.user_hover_over_the_menu_element()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user click on  the product tag",
@@ -1104,7 +1099,7 @@ formatter.match({
   "location": "stepdefination.user_click_on_the_product_tag()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user is redirected to product page",
@@ -1114,7 +1109,7 @@ formatter.match({
   "location": "stepdefination.user_is_redirected_to_product_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user click on product to be edited",
@@ -1124,7 +1119,7 @@ formatter.match({
   "location": "stepdefination.user_click_on_product_to_be_edited()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user is directed to edit page",
@@ -1134,7 +1129,7 @@ formatter.match({
   "location": "stepdefination.user_is_directed_to_edit_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user edits \"jacket\", \"leather\", \"jacket\", \"jacket\", \"jaket12\", \"jacket12\" , \"jk12\",\"220\"",
@@ -1144,7 +1139,7 @@ formatter.match({
   "location": "stepdefination.user_edits(String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks on save button",
@@ -1154,7 +1149,7 @@ formatter.match({
   "location": "stepdefination.user_clicks_on_save_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user gets \"Success: You have modified products!\"",
@@ -1164,7 +1159,7 @@ formatter.match({
   "location": "stepdefination.user_gets(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -1205,8 +1200,7 @@ formatter.match({
   "location": "stepdefination.click_on_login_buttton()"
 });
 formatter.result({
-  "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)\r\n\tat ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "user will be logged in",
@@ -1216,7 +1210,7 @@ formatter.match({
   "location": "stepdefination.user_will_be_logged_in()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "",
@@ -1231,7 +1225,7 @@ formatter.match({
   "location": "stepdefination.user_is_at_dashboard_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user hover over the catalog tag",
@@ -1241,7 +1235,7 @@ formatter.match({
   "location": "stepdefination.user_hover_over_the_catalog_tag()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user click on  the prod tag",
@@ -1251,7 +1245,7 @@ formatter.match({
   "location": "stepdefination.user_click_on_the_prod_tag()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user is navigated to prod page",
@@ -1261,7 +1255,7 @@ formatter.match({
   "location": "stepdefination.user_is_navigated_to_prod_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks on add product element",
@@ -1271,7 +1265,7 @@ formatter.match({
   "location": "stepdefination.user_clicks_on_add_product_element()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user is navigated to adding product page",
@@ -1281,7 +1275,7 @@ formatter.match({
   "location": "stepdefination.user_is_navigated_to_adding_product_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks on cancel button",
@@ -1291,7 +1285,7 @@ formatter.match({
   "location": "stepdefination.user_clicks_on_cancel_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user is redirected to the product page",
@@ -1301,7 +1295,7 @@ formatter.match({
   "location": "stepdefination.user_is_redirected_to_the_product_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"

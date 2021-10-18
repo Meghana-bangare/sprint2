@@ -1,154 +1,112 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="6" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="20.115051">
-    <testcase classname="Automation on uniform website application" name="Dashboard" time="3.588468">
-        <failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)&#13;&#10;&#9;at ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)&#13;&#10;"><![CDATA[Given User is on  unfirom application login page............................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="115.000197">
+    <testcase classname="Automation on uniform website application" name="Dashboard" time="41.690105">
+        <system-out><![CDATA[Given User is on  unfirom application login page............................passed
 When user enter "admin" and "admin@123".....................................passed
-And click on login buttton..................................................failed
-Then user will be logged in.................................................skipped
-Given user is on the dashboard page.........................................skipped
-When user hover over the catalog............................................skipped
-When user click on product..................................................skipped
-Then user is directed to product page.......................................skipped
-Given user is on product page...............................................skipped
-When user enter details "Brown T shirt","1500","RTS-012"and ""..............skipped
-And user selects "0"........................................................skipped
-When click on filter button.................................................skipped
-Then user gets the details of the product...................................skipped
-When user selects product to be copied......................................skipped
-When user clicks on copy....................................................skipped
-Then copying is done........................................................skipped
-When user selects product to be deleted.....................................skipped
-When user clicks on delete..................................................skipped
-Then user deletion is done..................................................skipped
-When user clicks on product name field......................................skipped
-Then product list is sortedin descending order..............................skipped
-When user clicks on  model field............................................skipped
-Then list is sorted in ascending order......................................skipped
-When user clicks on price field.............................................skipped
-Then price row is sorted in descending order................................skipped
-When user clicks on quantity field..........................................skipped
-Then user is sorted in descending order.....................................skipped
-
-StackTrace:
-junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:55)
-	at junit.framework.Assert.fail(Assert.java:64)
-	at stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)
-	at ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)
-]]></failure>
+And click on login buttton..................................................passed
+Then user will be logged in.................................................passed
+Given user is on the dashboard page.........................................passed
+When user hover over the catalog............................................passed
+When user click on product..................................................passed
+Then user is directed to product page.......................................passed
+Given user is on product page...............................................passed
+When user enter details "Brown T shirt","1500","RTS-012"and ""..............passed
+And user selects "0"........................................................passed
+When click on filter button.................................................passed
+Then user gets the details of the product...................................passed
+When user selects product to be copied......................................passed
+When user clicks on copy....................................................passed
+Then copying is done........................................................passed
+When user selects product to be deleted.....................................passed
+When user clicks on delete..................................................passed
+Then user deletion is done..................................................passed
+When user clicks on product name field......................................passed
+Then product list is sortedin descending order..............................passed
+When user clicks on  model field............................................passed
+Then list is sorted in ascending order......................................passed
+When user clicks on price field.............................................passed
+Then price row is sorted in descending order................................passed
+When user clicks on quantity field..........................................passed
+Then user is sorted in descending order.....................................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Automation on uniform website application" name="" time="3.307885">
-        <failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)&#13;&#10;&#9;at ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)&#13;&#10;"><![CDATA[Given User is on  unfirom application login page............................passed
+    <testcase classname="Automation on uniform website application" name="" time="14.337037">
+        <system-out><![CDATA[Given User is on  unfirom application login page............................passed
 When user enter "admin" and "admin@123".....................................passed
-And click on login buttton..................................................failed
-Then user will be logged in.................................................skipped
-Given user is on dashboard page.............................................skipped
-When user hover over the menu...............................................skipped
-When user click on  the product.............................................skipped
-Then user is navigated to product page......................................skipped
-When user clicks on add product.............................................skipped
-Then user is navigated to add product page..................................skipped
-When user adds "A","White coat","a","apron","ap12" and "apr12"..............skipped
-When user clicks on save....................................................skipped
-Then user data gets "Warning: Please check the form carefully for errors!"..skipped
-
-StackTrace:
-junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:55)
-	at junit.framework.Assert.fail(Assert.java:64)
-	at stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)
-	at ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)
-]]></failure>
+And click on login buttton..................................................passed
+Then user will be logged in.................................................passed
+Given user is on dashboard page.............................................passed
+When user hover over the menu...............................................passed
+When user click on  the product.............................................passed
+Then user is navigated to product page......................................passed
+When user clicks on add product.............................................passed
+Then user is navigated to add product page..................................passed
+When user adds "A","White coat","a","apron","ap12" and "apr12"..............passed
+When user clicks on save....................................................passed
+Then user data gets "Warning: Please check the form carefully for errors!"..passed
+]]></system-out>
     </testcase>
-    <testcase classname="Automation on uniform website application" name="_2" time="3.182158">
-        <failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)&#13;&#10;&#9;at ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)&#13;&#10;"><![CDATA[Given User is on  unfirom application login page............................passed
+    <testcase classname="Automation on uniform website application" name="_2" time="12.777941">
+        <system-out><![CDATA[Given User is on  unfirom application login page............................passed
 When user enter "admin" and "admin@123".....................................passed
-And click on login buttton..................................................failed
-Then user will be logged in.................................................skipped
-Given user is on dashboard page.............................................skipped
-When user hover over the menu...............................................skipped
-When user click on  the product.............................................skipped
-Then user is navigated to product page......................................skipped
-When user clicks on add product.............................................skipped
-Then user is navigated to add product page..................................skipped
-When user adds "Apron","White coat","apron","apron","ap12" and "apr12"......skipped
-When user clicks on save....................................................skipped
-Then user data gets "Success: You have modified products!"..................skipped
-
-StackTrace:
-junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:55)
-	at junit.framework.Assert.fail(Assert.java:64)
-	at stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)
-	at ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)
-]]></failure>
+And click on login buttton..................................................passed
+Then user will be logged in.................................................passed
+Given user is on dashboard page.............................................passed
+When user hover over the menu...............................................passed
+When user click on  the product.............................................passed
+Then user is navigated to product page......................................passed
+When user clicks on add product.............................................passed
+Then user is navigated to add product page..................................passed
+When user adds "Apron","White coat","apron","apron","ap12" and "apr12"......passed
+When user clicks on save....................................................passed
+Then user data gets "Success: You have modified products!"..................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Automation on uniform website application" name="Edit" time="2.856535">
-        <failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)&#13;&#10;&#9;at ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)&#13;&#10;"><![CDATA[Given User is on  unfirom application login page............................passed
+    <testcase classname="Automation on uniform website application" name="Edit" time="17.489329">
+        <system-out><![CDATA[Given User is on  unfirom application login page............................passed
 When user enter "admin" and "admin@123".....................................passed
-And click on login buttton..................................................failed
-Then user will be logged in.................................................skipped
-Given user is navigated to dashboard page...................................skipped
-When user hover over the menu element.......................................skipped
-When user click on  the product tag.........................................skipped
-Then user is redirected to product page.....................................skipped
-When user click on product to be edited.....................................skipped
-Then user is directed to edit page..........................................skipped
-When user edits "j", "leather", "j", "jacket", "jaket12", "jacket12" , "jk12","220".skipped
-When user clicks on save button.............................................skipped
-Then user gets "Warning: Please check the form carefully for errors!".......skipped
-
-StackTrace:
-junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:55)
-	at junit.framework.Assert.fail(Assert.java:64)
-	at stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)
-	at ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)
-]]></failure>
+And click on login buttton..................................................passed
+Then user will be logged in.................................................passed
+Given user is navigated to dashboard page...................................passed
+When user hover over the menu element.......................................passed
+When user click on  the product tag.........................................passed
+Then user is redirected to product page.....................................passed
+When user click on product to be edited.....................................passed
+Then user is directed to edit page..........................................passed
+When user edits "j", "leather", "j", "jacket", "jaket12", "jacket12" , "jk12","220".passed
+When user clicks on save button.............................................passed
+Then user gets "Warning: Please check the form carefully for errors!".......passed
+]]></system-out>
     </testcase>
-    <testcase classname="Automation on uniform website application" name="Edit_2" time="4.193795">
-        <failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)&#13;&#10;&#9;at ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)&#13;&#10;"><![CDATA[Given User is on  unfirom application login page............................passed
+    <testcase classname="Automation on uniform website application" name="Edit_2" time="15.255304">
+        <system-out><![CDATA[Given User is on  unfirom application login page............................passed
 When user enter "admin" and "admin@123".....................................passed
-And click on login buttton..................................................failed
-Then user will be logged in.................................................skipped
-Given user is navigated to dashboard page...................................skipped
-When user hover over the menu element.......................................skipped
-When user click on  the product tag.........................................skipped
-Then user is redirected to product page.....................................skipped
-When user click on product to be edited.....................................skipped
-Then user is directed to edit page..........................................skipped
-When user edits "jacket", "leather", "jacket", "jacket", "jaket12", "jacket12" , "jk12","220".skipped
-When user clicks on save button.............................................skipped
-Then user gets "Success: You have modified products!".......................skipped
-
-StackTrace:
-junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:55)
-	at junit.framework.Assert.fail(Assert.java:64)
-	at stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)
-	at ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)
-]]></failure>
+And click on login buttton..................................................passed
+Then user will be logged in.................................................passed
+Given user is navigated to dashboard page...................................passed
+When user hover over the menu element.......................................passed
+When user click on  the product tag.........................................passed
+Then user is redirected to product page.....................................passed
+When user click on product to be edited.....................................passed
+Then user is directed to edit page..........................................passed
+When user edits "jacket", "leather", "jacket", "jacket", "jaket12", "jacket12" , "jk12","220".passed
+When user clicks on save button.............................................passed
+Then user gets "Success: You have modified products!".......................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Automation on uniform website application" name="" time="2.98621">
-        <failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)&#13;&#10;&#9;at ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)&#13;&#10;"><![CDATA[Given User is on  unfirom application login page............................passed
+    <testcase classname="Automation on uniform website application" name="" time="13.450481">
+        <system-out><![CDATA[Given User is on  unfirom application login page............................passed
 When user enter "admin" and "admin@123".....................................passed
-And click on login buttton..................................................failed
-Then user will be logged in.................................................skipped
-Given user is at dashboard page.............................................skipped
-When user hover over the catalog tag........................................skipped
-When user click on  the prod tag............................................skipped
-Then user is navigated to prod page.........................................skipped
-When user clicks on add product element.....................................skipped
-Then user is navigated to adding product page...............................skipped
-When user clicks on cancel button...........................................skipped
-Then user is redirected to the product page.................................skipped
-
-StackTrace:
-junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:55)
-	at junit.framework.Assert.fail(Assert.java:64)
-	at stepdefiniton.stepdefination.click_on_login_buttton(stepdefination.java:47)
-	at ✽.click on login buttton(file:src/test/java/feature/signupc.feature:6)
-]]></failure>
+And click on login buttton..................................................passed
+Then user will be logged in.................................................passed
+Given user is at dashboard page.............................................passed
+When user hover over the catalog tag........................................passed
+When user click on  the prod tag............................................passed
+Then user is navigated to prod page.........................................passed
+When user clicks on add product element.....................................passed
+Then user is navigated to adding product page...............................passed
+When user clicks on cancel button...........................................passed
+Then user is redirected to the product page.................................passed
+]]></system-out>
     </testcase>
 </testsuite>
